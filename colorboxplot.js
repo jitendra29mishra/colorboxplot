@@ -19,10 +19,10 @@
 			obj[path] = fn.apply(null, args);
 		}
 	}
-	_registerModule(_modules, 'parts-more/EnhanceBoxPlotSeries.js', [_modules['parts/Globals.js'], _modules['parts/Utilities.js']], function (H, U) {
+	_registerModule(_modules, 'parts-more/ColorBoxPlotSeries.js', [_modules['parts/Globals.js'], _modules['parts/Utilities.js']], function (H, U) {
 		var pick = U.pick;
 		var noop = H.noop, seriesType = H.seriesType, seriesTypes = H.seriesTypes;
-		seriesType('enhanceboxplot', 'column', {
+		seriesType('colorboxplot', 'column', {
 			threshold: null,
 			tooltip: {
 				pointFormat: '<span style="color:{point.color}">\u25CF</span> <b> ' +

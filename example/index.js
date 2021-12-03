@@ -1,7 +1,7 @@
 
 Highcharts.chart('container', {
 	plotOptions: {
-		enhanceboxplot: {
+		colorboxplot: {
 			fillUpperColor: "#e2e2e2",
 			fillLowerColor: "#b8b7b7",
 			upperLineColor: "#939393",
@@ -18,7 +18,7 @@ Highcharts.chart('container', {
 	},
 	series: [
 		{
-			type: 'enhanceboxplot',
+			type: 'colorboxplot',
 			data: [
 				[10, 30, 50, 60, 100],
 				[20, 40, 55, 65, 80],
