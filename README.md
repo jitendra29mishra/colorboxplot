@@ -11,4 +11,4 @@ Using below flags in plotOptions or in series or in data, you can create nice bo
 * lowerLineWidth: Int
 
 
-Example - https://jsfiddle.net/L5t8w1v7/
+Example - https://jsfiddle.net/ca41mn0j/
